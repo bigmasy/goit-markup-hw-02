@@ -1,10 +1,11 @@
 :root {
   --primary-font: "Roboto", sans-serif;
-  --primary-color: #2e2f42;
-  --secondary-color: #434455;
+  --primary-color: #434455;
+  --secondary-color: #2e2f42;
   --logo-color: #4d5ae5;
   --card-background: #ffffff;
   --footer-text: #f4f4fd;
+  --link-hover: #404bbf;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -16,142 +17,163 @@ a {
 }
 ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.menu-list a {
-  color: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
 }
 .logo {
-  color: inherit;
+  color: var(--logo-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-.web {
-  color: var(--logo-color);
-}
-
-.contacts-list a {
+.menu-link {
   color: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--link-hover);
+}
+.studio {
+  color: var(--secondary-color);
+}
+.contacts {
+  font-style: normal;
+}
+.contacts-link {
+  color: var(--primary-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-
-.hero {
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--link-hover);
+}
+.hero-section {
   background-color: var(--primary-color);
   color: #ffffff;
+}
+.hero {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
-.hero button {
+.order-button {
+  font-family: "Roboto", sans-serif;
   background-color: var(--logo-color);
   color: #ffffff;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.order-button:hover,
+.order-button:focus {
+  background-color: var(--link-hover);
 }
 
-.features-list p {
+.features-name {
   color: var(--secondary-color);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.features-list h3 {
-  color: inherit;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.features-text {
+  color: var(--primary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.team-section {
+  background-color: #f4f4fd;
 }
 
 .team {
-  background-color: #f4f4fd;
-  color: inherit;
-}
-
-.team h2 {
+  color: var(--secondary-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
 }
-.team-list li {
+.team-member {
   background-color: var(--card-background);
 }
 
-.team-list h3 {
-  color: inherit;
+.member-name {
+  color: var(--secondary-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
-.team-list p {
-  color: var(--secondary-color);
+.member-position {
+  color: var(--primary-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.portfolio {
+.portfolio-section {
   background-color: inherit;
   color: inherit;
 }
-.portfolio h2 {
+.portfolio {
+  color: var(--secondary-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   text-align: center;
 }
-.portfolio-list li {
+.portfolio-list {
   background-color: var(--card-background);
-
-  border-width: 1px 1px 1px 1px;
-
-  border-style: solid;
-
-  border-color: #e7e9fc;
 }
 
-.portfolio-list h3 {
-  color: inherit;
+.portfolio-item {
+  color: var(--secondary-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.portfolio-list p {
-  color: var(--secondary-color);
-  font-family: Roboto;
+.portfolio-text {
+  color: var(--primary-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .footer {
   background-color: var(--primary-color);
-}
-.logo-footer {
   color: var(--footer-text);
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
 }
+
+.footer-studio {
+  color: var(--footer-text);
+}
+
 .footer-text {
   color: var(--footer-text);
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
