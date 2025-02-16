@@ -1,0 +1,157 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --primary-color: #2e2f42;
+  --secondary-color: #434455;
+  --logo-color: #4d5ae5;
+  --card-background: #ffffff;
+  --footer-text: #f4f4fd;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: var(--primary-color);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu-list a {
+  color: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.logo {
+  color: inherit;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+}
+.web {
+  color: var(--logo-color);
+}
+
+.contacts-list a {
+  color: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.hero {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+.hero button {
+  background-color: var(--logo-color);
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.features-list p {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.features-list h3 {
+  color: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.team {
+  background-color: #f4f4fd;
+  color: inherit;
+}
+
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+.team-list li {
+  background-color: var(--card-background);
+}
+
+.team-list h3 {
+  color: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+}
+
+.team-list p {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.portfolio {
+  background-color: inherit;
+  color: inherit;
+}
+.portfolio h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+.portfolio-list li {
+  background-color: var(--card-background);
+
+  border-width: 1px 1px 1px 1px;
+
+  border-style: solid;
+
+  border-color: #e7e9fc;
+}
+
+.portfolio-list h3 {
+  color: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.portfolio-list p {
+  color: var(--secondary-color);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: var(--primary-color);
+}
+.logo-footer {
+  color: var(--footer-text);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+}
+.footer-text {
+  color: var(--footer-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
